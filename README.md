@@ -7,8 +7,6 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 
 ## 只搞了一点，处于基本能用的级别
 
-# 我现在暂时不搞了，有没有人来接管的 😅
-
 # 电脑配置
 
 |规格|详细信息|
@@ -28,17 +26,17 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 2. USB端口正常
 3. 触摸板正常
 4. 摄像头正常
-5. 电脑屏幕能亮 😅
+5. 电脑屏幕能亮 
 6. 有线网卡正常
 7. 核显有硬件加速(应该)
 # 未知
 1. 不知道HDMI能不能用
 2. 不知道内置的麦克风能不能用(应该是不能的)
-3. 不知道电池正不正常(我是把它当作台式用的😅)
+3. 不知道电池正不正常(我是把它当作台式用的)
 4. 不知道独立显卡屏蔽了没
 5. 不知道cpu有没有变频
 # 不能用的
-1. 蓝牙不能用(主要是懒 😅 )
+1. 蓝牙不能用(主要是懒)
 2. 无线网卡不能用
 3. 睡眠不能用(直接就睡死了)
 # 不完善的
@@ -47,7 +45,7 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 
 # 我是怎么处理一些问题的
 1. 网卡我用了一个TP-Lnk的无线网卡，在TP的国外官网下的Mac驱动居然可以用，但是用的是TP自己的网络管理。
-2. 屏幕太亮我找了个护眼软件开夜间模式解决(鬼才 😅 )。
+2. 屏幕太亮我找了个护眼软件开夜间模式解决。
 
 # 如何安装
 1. 克隆本仓库或[下载zip](https://github.com/huangshi10492/Lenovo-K4350A-Hackintosh/archive/master.zip)。
@@ -60,10 +58,3 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 2. 看看声音的输出有没有问题。
 3. 修改调节亮度的快捷键(不支持Fn键调节)。
 4. (重要)在Windows下使用apfs读写工具(如apfs for windows)删除 /System/library/Extensions/AppleIntelCPUPowerManagement.kext 、 /System/Library/Extensions/AppleIntelCPUPowerManagementClient.kext 和 /System/Library/Caches/com.apple.kext.caches/Startup ，并将仓库other文件夹下的NullCPUPowerMangement.kext放入/System/library/Extensions中。 [来源](https://blog.csdn.net/u010372981/article/details/81714524)
-
-# 还有一些事
-1. 我懒得整理一些多余的文件了，不要吐槽 😅
-
-# 一些话
-1. 折腾黑苹果的感觉：开始时兴趣满满，然后逐渐索然无味 😅
-2. 说实话我觉得MacOS不太适合我，我在搞编程环境的时候遇到了一堆问题，这让我放弃了它。可能是我太菜了。我还是等要用adobe全家桶的时候再来吧。
