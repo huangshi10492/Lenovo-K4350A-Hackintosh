@@ -42,7 +42,7 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 1. 网卡我用了一个TP-Lnk的无线网卡，在TP的国外官网下的Mac驱动居然可以用，但是用的是TP自己的网络管理。
 
 # 如何安装
-1. 克隆本仓库或[下载zip](https://github.com/huangshi10492/Lenovo-K4350A-Hackintosh/archive/master.zip)。
+1. 克隆本仓库或[下载zip](https://github.com/huangshi10492/Lenovo-K4350A-Hackintosh/archive/10.14.zip)。
 2. 根据[黑果小兵的教程](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)把镜像装到u盘上。
 3. 用DiskGenius之类的能读写EFI分区的软件替换EFI文件夹内容。
 4. 开干！
