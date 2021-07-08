@@ -6,7 +6,7 @@ MacOS Mojave on Lenovo K4350A Hackintosh
 在此感谢 👍
 
 # 更新日志
-2021-7-7更新 Mojava版本EFI停更，可前往高版本下载新的EFI
+2021-7-7更新 Mojava版本EFI停更，可前往高版本下载新的EFI  
 2021-7-3更新 更新kext，将万能声卡驱动更换为AppleALC
 # 电脑配置
 
