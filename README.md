@@ -3,8 +3,9 @@ MacOS Mojave/Catalina on Lenovo K4350A Hackintosh
 在联想昭阳K4350A上运行黑苹果
 #### 本分支仅对Catalina进行支持，其他版本可选择其他分支
 ## 更新日志
-2021-7-9 更新clover版本，修复屏幕亮度和快捷键  
-2021-7-7 新增对Catalina的支持
+2021-7-11   更新clover版本，使用VoodooHDA修复声音  
+2021-7-9    更新clover版本，修复屏幕亮度和快捷键  
+2021-7-7    新增对Catalina的支持
 ## 电脑配置
 | 规格     | 详细信息                                |
 | -------- | --------------------------------------- |
@@ -14,22 +15,11 @@ MacOS Mojave/Catalina on Lenovo K4350A Hackintosh
 | 硬盘     | 自带的某东芝500G 5400转的硬盘           |
 | 显卡     | Intel HD 4000                           |
 | 声卡     | ALC269                                  |
-## 正常
-1. CPU和核显工作正常
-2. USB端口正常
-3. 摄像头正常
-4. 有线网卡正常
-5. 核显硬件加速正常
-6. 有线网卡正常
-7. 无线网卡正常(使用HeliPort连接网络)
-8. 屏幕亮度调节正常
-9. Fn快捷键正常
-10. 睡眠正常
 ## 不能用的
 1. 蓝牙无法使用
 2. HDMI无法使用
-3. 触摸板无法使用
-4. 声卡无法使用
+## 目前存在的BUG
+1. ACPI存在错误，可能导致无法开机
 # 如何使用
 1. 克隆本仓库或[下载zip](https://github.com/huangshi10492/Lenovo-K4350A-Hackintosh/archive/master.zip)。
 2. 下载10.15镜像并烧写至u盘。

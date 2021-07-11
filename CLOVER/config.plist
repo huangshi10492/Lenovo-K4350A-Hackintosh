@@ -124,7 +124,7 @@
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>SF9FQw==</data>
 					<key>Replace</key>
@@ -152,23 +152,16 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<false/>
 		<key>FixMCFG</key>
 		<false/>
 		<key>HaltEnabler</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<false/>
+			<true/>
 			<key>EnableC6</key>
 			<false/>
 			<key>EnableC7</key>
@@ -191,7 +184,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -v -lilubetaall slide=0 keepsyms=1 debug=0x100 -no_compat_check</string>
+		<string>dart=0 nv_disable=1 -v keepsyms=1 debug=0x100 -no_compat_check</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -221,7 +214,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<integer>18</integer>
+			<string>No</string>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
@@ -246,10 +239,12 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<true/>
+			<false/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 			<key>HighCurrent</key>
+			<false/>
+			<key>Inject</key>
 			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
@@ -327,10 +322,6 @@
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
@@ -638,6 +629,27 @@
 			</dict>
 		</array>
 	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>DevirtualiseMmio</key>
+		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>EnableWriteUnprotector</key>
+		<true/>
+		<key>ExternalDiskIcons</key>
+		<true/>
+		<key>PowerTimeoutKernelPanic</key>
+		<true/>
+		<key>ProvideCustomSlide</key>
+		<true/>
+		<key>SetupVirtualMap</key>
+		<true/>
+		<key>XhciPortLimit</key>
+		<true/>
+	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
@@ -658,6 +670,8 @@
 	<dict>
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
+		<key>InjectKexts</key>
+		<true/>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
