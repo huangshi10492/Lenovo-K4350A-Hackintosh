@@ -2,7 +2,11 @@
 MacOS Mojave/Catalina on Lenovo K4350A Hackintosh
 在联想昭阳K4350A上运行黑苹果
 #### 本分支仅对Catalina进行支持，其他版本可选择其他分支
+#
+## oc引导尚未完成系统判定，使用oc引导其它系统可能会导致系统故障，建议使用clover进行引导
+#
 ## 更新日志
+2021-7-13   增加opencore引导  
 2021-7-11   更新clover版本，使用VoodooHDA修复声音  
 2021-7-9    更新clover版本，修复屏幕亮度和快捷键  
 2021-7-7    新增对Catalina的支持
